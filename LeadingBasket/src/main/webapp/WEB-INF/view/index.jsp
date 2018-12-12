@@ -1,3 +1,6 @@
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@taglib uri="http://www.springframework.org/tags/form"  prefix="form"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,8 +50,8 @@
 								<li><a href="causes.html">Services</a></li>
 								<li><a href="portfolio.html">Tools</a></li>
 								<li><a href="about.html">About us</a></li>
-								<li><a href="news.html">Sign Up</a></li>
-								<li><a href="contact.html">Login</a></li>
+								<li><a href="user/registration">Sign Up</a></li>
+								<li><a href="user/login">Login</a></li>
 							</ul>
 						</nav>
 						
